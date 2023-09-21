@@ -7,7 +7,7 @@ Tuban is one of the regencies in East Java located close to Lamongan Regency. Th
 # Solutions
 So we have an idea to create a chatbot that helps users to get to know Tuban Regency better.
 
-I use the blog [[Project capstone blog](https://capstoneprojectkami.blogspot.com/)] to introduce Tuban Regency to tourist attractions, culture in Tuban Regency, Tuban specialties, and others through the blog and added a chatbot from IBM Watson to make the blog look more interactive.
+I use the blog [[Kabupaten Tuban blog](https://capstoneprojectkami.blogspot.com/)] to introduce Tuban Regency to tourist attractions, culture in Tuban Regency, Tuban specialties, and others through the blog and added a chatbot from IBM Watson to make the blog look more interactive.
 
 ## List Of Content
 | Name | Content |
