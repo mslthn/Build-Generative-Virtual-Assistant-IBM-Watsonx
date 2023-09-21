@@ -25,6 +25,6 @@ Basically Halo Barca's Website run with blogger, so to setup the website we foll
 ```
 * And save
 
-https://github.com/yogasungkowo/Build_GenerativeVirtualAssistant_IBMWatsonx/assets/93362737/3a161b23-59ca-4c66-9b7b-8a16f4bcc6ae
+[record video tutor]
 
 # After do all the steps, Integrating was done
