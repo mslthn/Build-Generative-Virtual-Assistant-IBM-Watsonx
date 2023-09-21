@@ -1,53 +1,55 @@
 # Setup Your Watson Machine Learning
 
-First open this [link](https://cloud.ibm.com/) then create an IBM account and follow the steps. Then your account will look like this:
+First of all, click on this [link](https://cloud.ibm.com/) to create the IBM account and follow the steps. Then your account will look like this:
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/2eca1288-635c-48e2-bab3-7126bcd55453)
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/2bc8116f-2d0d-4e9a-94ad-e85aad1ed9a5)
 
-![yoi](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/1e794eba-50ec-49b5-bb83-26a6a7cde252)
+Type "Watson Machine Learning" into the search field, select Watson Machine Learning and activate the service :
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/db1d4edc-8120-4d2a-af5a-43ee97b07d11)
 
-Type "**Watson Machine Learning**" into the search field, select Watson Machine Learning and your page will look like this:
-
-![watson](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/60f66f30-cebf-461f-a039-d6a0ab61f543)
-
-Activate Watson Machine Learning.
-Check "I have read and agree to the following license agreement" then select the plan you want to use (for starters I recommend using the lite plan, select location Dallas-US and click create.
+Checklist the checklist button "I have read and agree to the following license agreement" then select the plan you want to use, then select location Dallas-US and click create.
 
 Please note that Watson Machine Learning runs when IBM Cloud Pack For Data is installed in your IBM account, you can read the following link as a reference for [IBM Cloud Pack For Data setup](https://cloud.ibm.com/docs/cloud-pak-data?topic=cloud-pak-data-getting-started)
 
 # Setup WatsonX
-After activating Watson Machine Learning, WatsonX is ready to run.
-Type in the IBM Cloud search field "**WatsonX**" and select
+After activating the Watson Machine Learning, WatsonX is ready to run.
+Type in the IBM Cloud search field "**WatsonX**" and click on it.
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/31d5a467-7f1b-4d51-9f3e-bed4101dd345)
+
 Later, you will be instructed to log in or register using your ibm cloud account, fill in according to the instructions, and your page should be like this:
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/bb33f944-59f0-4d8a-ae69-a15d34f42b53)
 
-![Screenshot (1)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/be6f3097-50fb-4985-8a4d-7d77725a8629)
-
-Click "Get Started" because I have already used the service from IBM WatsonX so it says "launch" then the page should look like this:
-
-![Screenshot (2)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/fbb374d9-7d37-46f6-a413-85d1b277a4cc)
+Click on the "Get Started" button, since I've already used the service from IBM WatsonX so it says "launch" then the page should look like this:
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/86b418c8-072b-4180-9175-bc2c5b83101c)
 
 Click the menu in the upper left corner and select "**Project, View All Project**" then follow the steps below:
 * Create a new project by clicking "**New Project**"
 * Select "**Create an empty project**"
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/a54a5b28-3117-4e8f-9530-1d8136901809)
+
 * Enter your project name, then enter your project description (optional)
 * Then click "**Create**"
-* Your page should look like this:
-  
-![image](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/6b2d2716-9eba-421e-b928-52162ac5e178)
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/7ca9f151-b55a-49e6-a3f8-8a59c46fd8fa)
 
 * Click "**Assets**" and click "**New task**"
-* Select "**Experimenting with foundation models and build prompts**"
-* A notification will appear like this:
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/5616fa6b-89a2-4678-9e00-b643da88e77c)
 
-![Screenshot (4)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/8c9b0ab1-0378-4499-aea5-b3d36dead573)
+* Select "**Experimenting with foundation models and build prompts**"
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/85b1ee94-5bfb-4f76-b8fc-fccd17412e50)
+
+* A notification will look like this:
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/3de091cb-aa91-4e32-a4b3-2ec238ab5444)
 
 * Click "**Associate Service**" and select "**Watson Machine Learnig**" and click "**Associate**"
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/0d554fcb-ed68-4a69-a399-dd1a67c56cc3)
+
 * Return to the "**Assets**" menu and "**Create new task**" as above
 * And your page will look like this:
-
-![Screenshot (5)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/978906d0-c1ea-4f0b-b161-6364a68b7b85)
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/61f19b35-f18e-4747-8c38-5e8280c40b5f)
 
 * Click on the menu I've rounded up and select "Question About an Article"
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/0acdf35a-1ee9-45c4-b0f3-0071b45f68a8)
 
-![Screenshot (6)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/aad1e018-e36d-4bff-9983-af9da0fced6f)
 
 * Enter the following text into the "**Setup**" menu
 ```
