@@ -1,13 +1,13 @@
 # Build Web Virtual Assistant With Generative AI Using IBM watson Assistant Integrated With WatsonX
-Create a capstone project related to Watsonx and Watson Assistant, to be used as a Virtual Assistant on the Football Website [Halo Barca](https://haloobarca.blogspot.com/)
+Create a capstone project related to Watsonx and Watson Assistant, to be used as a Virtual Assistant on the Tuban Website [[Kabupaten Tuban blog](https://capstoneprojectkami.blogspot.com/)]
 
 # Problem
-Most football news websites currently running are not modernized with Generative AI, so their functionality is limited.
+Tuban is one of the regencies in East Java located close to Lamongan Regency. There are still many people who do not know what Tuban is and where Tuban Regency is located
 
 # Solutions
-My idea is to create a standard sports news website integrated with Generative AI using WatsonX & Watson Assistant. This is done to improve the performance of the website in terms of information related to the topics raised on the website.
+So we have an idea to create a chatbot that helps users to get to know Tuban Regency better.
 
-This time I used the website [Halo Barca](https://haloobarca.blogspot.com/) a website that discusses football news related to FC Barcelona. By implementing Generative AI, users can not only read the news but can also get various information about FC Barcelona, ​​so they can increase the functionality of the website at one time.
+I use the blog [[Kabupaten Tuban blog](https://capstoneprojectkami.blogspot.com/)] to introduce Tuban Regency to tourist attractions, culture in Tuban Regency, Tuban specialties, and others through the blog and added a chatbot from IBM Watson to make the blog look more interactive.
 
 ## List Of Content
 | Name | Content |
