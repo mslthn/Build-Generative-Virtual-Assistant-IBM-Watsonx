@@ -10,7 +10,7 @@ In this topic we'll tell you how to integrating the watson assistant into the we
 * In Customize menu scroll right and select **Embed**
 * Select and copy embedded code
 
-![image](https://github.com/yogasungkowo/Build_GenerativeVirtualAssistant_IBMWatsonx/assets/93362737/d670f0ab-fba9-4252-8c25-dcaa84a6cbfe)
+[input image]
 
 ## Step on the website
 
