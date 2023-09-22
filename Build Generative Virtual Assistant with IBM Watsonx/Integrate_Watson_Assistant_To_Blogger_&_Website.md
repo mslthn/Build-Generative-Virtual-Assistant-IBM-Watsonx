@@ -14,17 +14,19 @@ Di bagian ini dijelaskan bagaimana cara mengintegrasikan watson assistant ke web
 
 ## Langkah-langkah pada website
 
-Basically Halo Barca's Website run with blogger, so to setup the website we follow the blogger rule
-* Open blogger site and open blog created
-* On left side menu, click theme
-* Click down arrow in next to Customize text
-* Click edit HTML
-* Paste **Embed** code into up of
+Pada dasarnya web   [[Kabupaten Tuban blog](https://infoseputartuban.blogspot.com/)] yang kami buat ini dibuat dengan blogger, jadi untuk mengintegrasikan Watson Assistant ke website ini, kita harus melakukan tahapan-tahapan seperti dibawah ini:
+* Buka situs blogger, lalu buka blog yang sudah dibuat
+* Pada menu yang ada di bagian kiri layar, pilih "Theme"
+* Lalu klik panah yang ada di samping tombol "Customize"
+* Klik edit HTML
+* Paste embed code yang tadi telah di-copy dari Watson Assistant.
+* Paste embed code tersebut pada bagian sebelum kode berikut
 ```
 </body>
 ```
-* And save
+* Lalu klik save
 
 [record video tutor]
 
-# After do all the steps, Integrating was done
+# Setelah melalui tahapan-tahapan diatas, maka Watson Assistant telah terintegrasi pada website
+
