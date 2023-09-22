@@ -1,6 +1,8 @@
 # Setup Watson Assistant From IBM Cloud
 
-* Open this [link](https://cloud.ibm.com/), login to your IBM Cloud Account, and search "**Watson Assistant**" then select "**Watson Assistant**"
+* Pertama buka [link ini](https://cloud.ibm.com/) untuk login ke IBM Cloud
+* Login dengan  
+* d search "**Watson Assistant**" then select "**Watson Assistant**"
 * After that, you can select country to Dallas-US, plan lite, and check "**i have read and aggree to the license aggreement**" and then click "**Create**"
 * and after your Watson Assistant Service created you can see in the search bar is would be like this :
   
