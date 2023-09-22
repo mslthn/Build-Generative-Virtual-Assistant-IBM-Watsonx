@@ -46,5 +46,16 @@ Cara menghubungkan WatsonX Extension ke Watson Assistant bisa dilihat di link be
 ### Step 6: 
 * Pada bagian _Is taken_, pilih **with condition**. Pada step ini dimana Customer memilih opsi "**Tourist Spots**" pada Step 2 sebelumnya.
 * Pada bagian _And then_, pilih **Go to a subaction**. Pilih subaction _Tourist Spots_.
-  Subaction Tourist Spots bisa dilihat disini: (link)
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/abf10a1a-4d53-4461-9886-2dd9acacba56)
+
+Subaction _Tourist Spots_ bisa dilihat disini: (link)
+
+### Step 7:
+* Pada bagian _Is taken_, pilih **with condition**. Pada step ini dimana Customer memilih opsi "**Local Wisdom**" pada Step 2 sebelumnya.
+* Pada bagian _And then_, pilih **Go to a subaction**. Pilih subaction _Local Wisdom_.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/6c20b95f-b599-4918-8de5-0a312aed450c)
+
+Subaction _Local Wisdom_ bisa dilihat disini: (link)
+
+### Step 8:
+
