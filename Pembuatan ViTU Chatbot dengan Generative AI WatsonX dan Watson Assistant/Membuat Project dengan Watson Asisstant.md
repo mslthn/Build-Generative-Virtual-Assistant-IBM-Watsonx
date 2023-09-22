@@ -2,7 +2,7 @@
 Pada tahap pembuatan project chatbot ini, kami membuat 3 action pada Watson Assistan yaitu:
 
 Main Action:
-* [ViTu (Visit Tuban)](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/blob/main/Pembuatan%20ViTU%20Chatbot%20dengan%20Generative%20AI%20WatsonX%20dan%20Watson%20Assistant/Membuat%20Project%20dengan%20Watson%20Asisstant.md)
+* [ViTu (Visit Tuban)](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/blob/main/Pembuatan%20ViTU%20Chatbot%20dengan%20Generative%20AI%20WatsonX%20dan%20Watson%20Assistant/Membuat%20Project%20dengan%20Watson%20Asisstant.md#1-vitu-visit-tuban---main-action)
 
 Subaction:
 * [Tourist Spots](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/blob/main/Pembuatan%20ViTU%20Chatbot%20dengan%20Generative%20AI%20WatsonX%20dan%20Watson%20Assistant/Membuat%20Project%20dengan%20Watson%20Asisstant.md#2-tourist-spots---subaction)
