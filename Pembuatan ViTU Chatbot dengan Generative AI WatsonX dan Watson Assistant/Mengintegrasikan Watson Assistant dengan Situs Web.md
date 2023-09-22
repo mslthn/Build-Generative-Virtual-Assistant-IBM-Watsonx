@@ -29,5 +29,5 @@ Pada dasarnya web   [[Kabupaten Tuban blog](https://infoseputartuban.blogspot.co
 
 [record video tutor]
 
-# Setelah melalui tahapan-tahapan diatas, maka Watson Assistant telah terintegrasi pada website
+* SELESAI
 
