@@ -32,7 +32,7 @@ Before we take action to setup our virtual agent, we must create integration bet
 * Click "**Next**"
 * Fill in Extension Name and Extension Description then click next
 * Download JSON file from [this link](https://github.com/watson-developer-cloud/assistant-toolkit/blob/master/integrations/extensions/starter-kits/language-model-watsonx/watsonx-openapi.json).
-* And then drag or drop the file to the following :
+* And then drag and drop the downloaded file on the upload section :
 
 ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/7e491303-ba30-4bdc-8f07-fb11eb29ee52)
 
