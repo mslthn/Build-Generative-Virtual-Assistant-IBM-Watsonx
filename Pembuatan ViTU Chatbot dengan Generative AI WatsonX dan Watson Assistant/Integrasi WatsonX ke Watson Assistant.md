@@ -11,6 +11,8 @@
 
 3. Jika sudah, lanjut ke langkah berikutnya.
 
+
+
 # Cara Mengintegrasikan WatsonX (Generative AI) ke Watson Assistant
 
 ## WatsonX - Prompt Lab
