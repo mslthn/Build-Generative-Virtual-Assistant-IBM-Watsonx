@@ -28,5 +28,10 @@
 ## 7. Klik _Start from scratch_
 ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/6c846137-6ccf-493b-9ce5-61414e4dc515)
 
-## 8. Lalu pada bagian ini, 
+# Mulai untuk membuat Chatbot Asisstant
+1. Untuk memulai berinteraksi, pada bagian "_Customer starts with:_" , isikan kalimat pembuka seperti : _hai, helo, dll._
+   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/f937710c-7b2f-43b4-a6ff-85cc779dab4b)
+2. 
+
+  
 
