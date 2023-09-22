@@ -1,51 +1,50 @@
-# Setup Watson Assistant From IBM Cloud
+# Setup Watson Assistant IBM Cloud
 
 * Pertama buka [link ini](https://cloud.ibm.com/) untuk login ke IBM Cloud
 * Login dengan akun IBM kamu
 * Ketik "**Watson Assistant**" pada search bar, lalu pilih "**Watson Assistant**"
-* selanjutnya, wilayah Dallas-US, plan lite, and check "**i have read and aggree to the license aggreement**" and then click "**Create**"
-* and after your Watson Assistant Service created you can see in the search bar is would be like this :
+* selanjutnya, ganti wilayah menjadi Dallas-US, pilih plan lite, dan centang "**i have read and aggree to the license aggreement**", lalu klik "**Create**"
+* Setelah Watson Assistant Service dibuat, Anda dapat melihatnya di search bar dan tampilan akan terlihat seperti gambar dibawah ini :
   
 ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/0738386c-50ca-4be1-91ed-7d7608766552)
 
-* Click on the "**Watson Assistant-(random character, for me is Watson Assistant-aa, it would be different per user)**"
-* Click "**Launch**"
-* After launch the Watson Assistant service, you will see the following:
+* Klik pada "**Watson Assistant-(random character, for me is Watson Assistant-aa, it would be different per user)**"
+* Klik "**Launch**"
+* Setelah klik launch, tampilan tab Anda akan terlihat seperti gambar berikut :
 
 ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/3176afbb-cabf-4c0a-8107-bb94c5178d4d)
 
-# Setup Extension WatsonX On Watson Assistant
+# Setup WatsonX Extension di Watson Assistant
 
-Before we take action to setup our virtual agent, we must create integration between WatsonX Generated AI and Watson Assistant to make the virtual assistant work like chat GPT
-* Click menu on top left corner, and select "**Integration**"
-* Scroll Down and choose "**Build Custom Extension**"
-* Before we move forward we need copy our WatsonX API KEY
-* Back to WatsonX and open our project assets and click the following :
+Sebelum kita mengatur virtual agent, kita harus menghubungkan WatsonX Generated AI dengan Watson Assistant agar virtual asisten kita dapat menghasilkan serangkaian kata atau kalimat layaknya bot yang ada di chat GPT, Bing, dan lainnya.
+* Klik metu di pojok kiri atas, lalu pilih "**Integration**"
+* Scroll kebawah dan pilih "**Build Custom Extension**"
+* Untuk langkah selanjutnya, kita membutuhkan WatsonX API KEY yang didapatkan dari projek yang telah kita buat
+* Kembali ke WatsonX dan buka project assets, lalu klik pada ikon seperti pada gambar
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/738124ef-2697-4dba-b5ed-15f3b6837f5f)
 
-![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/738124ef-2697-4dba-b5ed-15f3b6837f5f)
-
-* Click "**Create a personal API key**"
-* Once you click "Create", you will be redirected to a new tab to create a Personal API Key
-* Name your API key and fill the description as desired
+* Buat personal API key dengan klik "**Create a personal API key**"
+* Setelah klik "Create", akan diarahkan ke tab baru untuk membuat Personal API Key
+* Beri nama API key dan tuliskan deskripsi sesuai kebutuhan
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/faf9da30-bc5c-4379-8130-43b320614cd2)
 
-* And then click "**Create**"
-* Copy API Key / Download, and back to Watson Assistant
-* Click "**Next**"
-* Fill in Extension Name and Extension Description then click next
+* Klik "**Create**"
+* Copy API Key / Download, lalu kembali lagi ke Watson Assistant
+* Klik "**Next**"
+* Isi Extension Name dan Extension Description lalu klik next
 * Download JSON file from [this link](https://github.com/watson-developer-cloud/assistant-toolkit/blob/master/integrations/extensions/starter-kits/language-model-watsonx/watsonx-openapi.json).
-* And then drag and drop the downloaded file on the upload section :
+* Selanjutnya pilih file JSON yang tadi sudah diunduh pada direktori file kamu, atau dapat juga dengan cara drag and drop file JSON tersebut ke bagian kotak unggah :
 
 ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/7e491303-ba30-4bdc-8f07-fb11eb29ee52)
 
-* Click "**Next**"
-* Click "**Finish**"
-* Scroll Down again to extension menu and click "**Add**" to integration we just created
-* Click "**Next**"
-* Select "**Oauth 2.0**" on Authentication Type
-* Paste API Key from WatsonX, that we copied before to "**Api Key Form**"
-* Click "**Next**"
-* And click "**Finish**"
+* Klik "**Next**"
+* Klik "**Finish**"
+* Scroll kebawah ke bagian extension menu dan klik "**Add**"
+* Klik "**Next**"
+* Pilih "**Oauth 2.0**" pada Authentication Type
+* Paste API Key dari WatsonX, that we copied before to "**Api Key Form**"
+* Klik "**Next**"
+* terakhir "**Finish**"
 
 # Setup Action On Watson Assistant
 
