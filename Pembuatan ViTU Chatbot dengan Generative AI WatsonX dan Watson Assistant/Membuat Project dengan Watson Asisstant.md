@@ -6,7 +6,7 @@ Main Action:
 
 Subaction:
 * [Tourist Spots](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/blob/main/Pembuatan%20ViTU%20Chatbot%20dengan%20Generative%20AI%20WatsonX%20dan%20Watson%20Assistant/Membuat%20Project%20dengan%20Watson%20Asisstant.md#2-tourist-spots---subaction)
-* [Local Wisdom](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/blob/main/Build%20Generative%20Virtual%20Assistant%20with%20IBM%20Watsonx/Membuat%20Project%20dengan%20Watson%20Asisstant.md#3-local-wisdom---subaction)
+* [Local Wisdom](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/blob/main/Pembuatan%20ViTU%20Chatbot%20dengan%20Generative%20AI%20WatsonX%20dan%20Watson%20Assistant/Membuat%20Project%20dengan%20Watson%20Asisstant.md#3-local-wisdom---subaction)
 
 ## 1. ViTu (Visit Tuban) - _Main Action_
 Action pertama ini, merupakan action utama yang digunakan dalam pembuatan chatbot kami. Langkah-langkah pengerjaannya sebagai berikut:
