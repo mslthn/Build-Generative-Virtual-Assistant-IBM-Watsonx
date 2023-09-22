@@ -1,10 +1,14 @@
 # Mulai membuat Chatbot dengan Watson Assistant
-Pada tahap pembuatan project chatbot ini, kamu membuat 3 action diantaranya:
+Pada tahap pembuatan project chatbot ini, kami membuat 3 action pada Watson Assistan yaitu:
+
+Main Action:
 * ViTu (Visit Tuban)
+
+Subaction:
 * Tourist Spots
 * Local Wisdom
 
-## 1. ViTu (Visit Tuban)
+## 1. ViTu (Visit Tuban) - _Main Action_
 Action pertama ini, merupakan action utama yang digunakan dalam pembuatan chatbot kami. Langkah-langkah pengerjaannya sebagai berikut:
 - Pada bagian _Customer starts with_, isikan kalimat pembuka untuk dapat berinteraksi dengan chatbot.
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/9ce56a63-7c70-4f77-b7b9-3f235ffd454c)
@@ -38,7 +42,7 @@ Cara menghubungkan WatsonX Extension ke Watson Assistant bisa dilihat di link be
 
 ### Step 5:
 * Pada bagian _Is taken_, pilih **with condition**. Ketika penggunaan extension pada step 4 berhasil "**Ran successfully**".
-* Tambahkan variabel pada _Set variable values_, lalu beri nama "**result**" sebagai _free text_.
+* Tambahkan variabel pada _Set variable values_, lalu beri nama "**result**" sebagai _free text_. Variabel ini diisi dengan "_**body.result(extension)[0]["generated_text"]**_".
 * Pada bagian _Asisstant says_, isikan dengan variabel yang baru dibuat yaitu "**result**".
 * Pada bagian _And then_, pilih **Continue to next step**.
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/4aaca0ea-8d11-44bc-ae33-6b0c9ff11b0f)
@@ -58,4 +62,60 @@ Subaction _Tourist Spots_ bisa dilihat disini: (link)
 Subaction _Local Wisdom_ bisa dilihat disini: (link)
 
 ### Step 8:
+* Pada bagian _Is taken_, pilih **without condition**.
+* Pada bagian _Asisstant says_, berisi respon chatbot.
+* Pada bagian _Define customer response_, pilih **Confirmation** berupa _Yes_ dan _No_.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/ddfed604-6eee-4827-b972-49cb37124cd5)
 
+### Step 9:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 8 memilih option _No_.
+* Pada bagian _Asisstant says_, berisi respon chatbot.
+* Pada bagian _And then_, pilih **Re-ask previous step(s)**. Bagian ini akan mengulangi langkah dari step sebelumnya.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/904a1fb6-d7cf-40a3-a6a7-fff3f84c0c04)
+
+### Step 10: 
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 8 memilih option _Yes_.
+* Pada bagian _Asisstant says_, berisi respon chatbot.
+* Pada bagian _Define customer response_, pilih **Option** berupa _Ask Again_ dan _No, that's enough_.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/bc7f759a-1a63-4a02-b799-127cf392ed3b)
+
+### Step 11:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 10 memilih option _Ask Again_.
+* Pada bagian _And then_, pilih **Re-ask previous step(s)**. Bagian ini akan mengulangi langkah dari step sebelumnya.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/5a370975-717f-4ae5-91bf-78b410546d33)
+
+### Step 12:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 10 memilih option _No, that's enough_.
+* Pada bagian _And then_, pilih **End the action**. Bagian ini akan mengulangi langkah dari step sebelumnya.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/e50d7a17-8a58-45a4-a337-c4f4603edd7d)
+
+## 2. Tourist Spots - _Subaction_
+- Action ini merupakan subaction yang akan di panggil dan digunakan pada action utama. Sesuai namanya, subaction ini berisi daftar tempat-tempat wisata yang ada di Kota Tuban.
+- Pada sub action ini tidak diperlukan lagi untuk menginputkan kalimat pembuka seperti pada action utama. Cukup dikosongkan saja agar chatbot tidak kebingungan karena memiliki lebih dari satu kalimat pembuka pada setiap action yang berbeda.
+
+### Step 1:
+* Pada bagian _Is taken_, pilih **without condition**.
+* Pada bagian _Asisstant says_, berisi respon chatbot.
+* Pada bagian _Define customer response_, pilih **Option** dimana terdapat pilihan seperti _Beach_, _Historic Sites_, _Waterfall Tourism_, dan _Religious Tourism_.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/7ee06fc8-915a-496d-b4ed-454e46524a7a)
+
+### Step 2:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Beach_.
+* Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait wisata pantai yang ada di Kota Tuban serta memberikan preview foto salah satu pantai disana.
+* Pada bagian _And then_, pilih **Continue to next step**.
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/b9847872-b817-44b1-abab-2073ab37d65c)
+
+### Step 3:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Historic Sites_.
+* Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait wisata tempat bersejarah yang ada di Kota Tuban serta memberikan preview foto salah satu tempat bersejarah yang ada disana.
+* Pada bagian _And then_, pilih **Continue to next step**.
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/e31e04d2-8d05-43e2-be95-fd2adf56fb27)
+
+### Step 4:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Waterfall Tourism_.
+* Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait wisata air terjun yang ada di Kota Tuban serta memberikan preview foto salah satu wisata air terjun disana.
+* Pada bagian _And then_, pilih **Continue to next step**.
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/4a562b67-7fcb-49cc-9dff-1d29d7a25c22)
