@@ -106,16 +106,51 @@ Subaction _Local Wisdom_ bisa dilihat disini: (link)
 * Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Beach_.
 * Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait wisata pantai yang ada di Kota Tuban serta memberikan preview foto salah satu pantai disana.
 * Pada bagian _And then_, pilih **Continue to next step**.
-![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/b9847872-b817-44b1-abab-2073ab37d65c)
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/b9847872-b817-44b1-abab-2073ab37d65c)
 
 ### Step 3:
 * Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Historic Sites_.
 * Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait wisata tempat bersejarah yang ada di Kota Tuban serta memberikan preview foto salah satu tempat bersejarah yang ada disana.
 * Pada bagian _And then_, pilih **Continue to next step**.
-![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/e31e04d2-8d05-43e2-be95-fd2adf56fb27)
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/e31e04d2-8d05-43e2-be95-fd2adf56fb27)
 
 ### Step 4:
 * Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Waterfall Tourism_.
 * Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait wisata air terjun yang ada di Kota Tuban serta memberikan preview foto salah satu wisata air terjun disana.
 * Pada bagian _And then_, pilih **Continue to next step**.
-![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/4a562b67-7fcb-49cc-9dff-1d29d7a25c22)
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/4a562b67-7fcb-49cc-9dff-1d29d7a25c22)
+
+### Step 5:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Religious Tourism_.
+* Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait wisata tempat religi yang ada di Kota Tuban serta memberikan preview foto salah satu wisata tempat religi disana.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/bbf0451c-79ed-4bd5-a176-f9118c4ec7c2)
+
+## 3. Local Wisdom - _Subaction_
+- Action ini merupakan subaction yang akan di panggil dan digunakan pada action utama. Sesuai namanya, subaction ini berisi tentang kebudayaan lokal yang ada di Kota Tuban.
+- Pada sub action ini tidak diperlukan lagi untuk menginputkan kalimat pembuka seperti pada action utama. Cukup dikosongkan saja agar chatbot tidak kebingungan karena memiliki lebih dari satu kalimat pembuka pada setiap action yang berbeda.
+
+### Step 1:
+* Pada bagian _Is taken_, pilih **without condition**.
+* Pada bagian _Asisstant says_, berisi respon chatbot.
+* Pada bagian _Define customer response_, pilih **Option** dimana terdapat pilihan seperti _Traditional Music_, _Arts and Crafts_, dan _Traditional Performance Arts_.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/34d3e4c8-eba0-412a-b84b-34cbf53bf0aa)
+
+### Step 2:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Traditional Music_.
+* Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait alat musik tradisional khas Kota Tuban.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/69bf1d86-70b3-4b64-8aa0-e98b795c8f4d)
+
+### Step 3:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Arts and Crafts_.
+* Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait seni kerajinan khas Kota Tuban.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/5c197264-db6f-47d1-af9c-113ec0928839)
+
+### Step 4:
+* Pada bagian _Is taken_, pilih **with condition**. Pada saat step 1 memilih opsi _Traditional Performance Arts_.
+* Pada bagian _Asisstant says_, berisi respon chatbot yang memberikan jawaban terkait pertunjukan tradisional khas Kota Tuban.
+* Pada bagian _And then_, pilih **Continue to next step**.
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/145754405/d2858bdb-efe7-4129-b066-b86ed5371061)
