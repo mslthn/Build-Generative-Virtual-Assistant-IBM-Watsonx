@@ -68,34 +68,34 @@ Setelah berhasil mengintegrasilam WatsonX dan Watson Assistant, langkah selanjut
 ## Import WatsonX ke Watson Assistant
 
 * Pilih "**New Step**"
-* Pada metu "_And Then_" pilih "**Use an Extension**"
+* Pada menu "_And Then_" pilih "**Use an Extension**"
 * Klik extension dan pilih extension yang tadi telah dibuat
 * Klik "**Generation**" pada "_Operation_" 
 * Untuk parameter kita dapat melihatnya dari WatsonS prompt lab pada bagian "view Code", lalu isikan sesuai dengan detil parameter yang ada disana seperti gambar dibawah ini.
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/e70ef1c9-8f1b-4b1c-ae05-47db0f92a9c9)
 
 
-* Untuk input parameter select "**Action Variables**" lalu pilih "**step 1**"
-* After we set the extension, time to making variable that will call the extension
-* Click "**New Step**"
-* Change "**Is taken to** to "**With conditions**"
+* Untuk input parameter pilih "**Action Variables**" lalu pilih "**step 1**"
+* Setelah mengatur extension, selanjutnya membuat variable untuk memanggil extension
+* Klik "**New Step**"
+* Ganti "**Is taken to** ke "**With conditions**"
 
 https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/2eec23cd-ea8c-4ad1-b695-ac985763db34
 
-* Click "**Set Variable Values**"
-* Click "**Set New Value**", "**New Session Variable**", insert the variable name, this time e.g result, and variable type select "**Free Text**"
-* In "variable to" form Select "**Expression**" and insert this code
+* klik "**Set Variable Values**"
+* klik "**Set New Value**", "**New Session Variable**", insert the variable name, this time e.g result, and variable type select "**Free Text**"
+* pada "variable to" pilih "**Expression**" dan masukkan kode ini
 ```
 ${step_472_result_1.body.results}[0].generated_text
 ```
 
 https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/3d2a9ebb-b655-495b-b03f-03926c26269d
 
-* After the setup finally done we can tested it, click "**preview**" in right bottom corner
+* Tahap setup telah selesai, selanjutnya kita dapat menguji botnya apakah sudah berjalan dengan baik, klik "**preview**" pada pojok kanan bawah
 
 https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/83ee4409-5d7f-479f-832f-fc2cd4429f6a
 
-# Making Halo Barca Generative Virtual Assistant
+# Membuat ViTu (Visit Tuban) Chatbot Virtual Assistant
 
 After do some test integration between watsonx and watson assistant, we can move forward onto next topic. That's making our Generative Virtual Assistant for Halo Barca website
 > For this project im making 2 action on Watson Assistant, first for general assistant and another one is for call watsonx extension.
