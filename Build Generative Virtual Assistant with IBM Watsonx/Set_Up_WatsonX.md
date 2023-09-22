@@ -53,46 +53,35 @@ Click the menu in the upper left corner and select "**Project, View All Project*
 
 * Enter the following text into the "**Setup**" menu
 ```
-Answer the following question using only information from the article. If there is no good answer in the article, say "Sorry, i cant get your answer. Because my foundation not updated yet😅".
+Answer the following question using only information from the article. If there is no good answer in the article, say "I don't know". If there is a good answer from the article, answer the question based on article below.
 
 Article: 
 ###
-FC Barcelona, often referred to simply as Barcelona or Barça, is one of the most renowned and successful football clubs in the world. Here's a brief overview of the club's history and significant years:
+The meaning of the word comes from Javanese which means "out of the water". Tuban is a combination of the word "meTU BANyune". Javanese people often make two or more sentences shorter. In the previous two words, the Javanese combined the two words into a word. The two words "meTU BANyune" are shortened to one word namely "Tuban".
+Tuban Regency is one of the 38 regencies and cities in the administrative region of East Java Province. Tuban Regency area is on the northern coastal strip (Pantura) of Java Island.
 
-Foundation (1899): FC Barcelona was founded on November 29, 1899, by a group of Swiss, English, and Catalan footballers led by Joan Gamper. The club's first president was Walter Wild.
+Tourist destinations that you can visit while in Tuban: Pantai Boom Tuban, Air Terjun Nglirip, Goa Ngerong, Pantai Sowan Tuban, Wisata Pantai Kelapa, Discovery of Forest, Pantai Pasir Putih Remen, Agrowisata Attaqie Farm, Obyek Wisata D’Fresh Waterpark, Pegunungan Kuwasen, Kampung Warna, Pemandian Bektiharjo, Tebing Pelangi, Wisata Pelangi, Wisata Religi Masjid Agung Tuban.
 
-Early Success (1910s - 1920s): Barcelona won its first Copa del Rey (Spanish Cup) in 1910. In the 1920s, they won several regional and national titles, solidifying their status in Spanish football.
+Tuban Regency is an area located on the north coast of East Java Province, precisely Lamongan Regency in the east and Bojonegoro Regency in the south. There are many Tuban specialties encountered, some of which are made from the main ingredients of sea fish. The reason is, this area is classified as a coast that has a fairly wide coastline. In addition to crabs, there is another food that is fun and interesting to enjoy, namely rica-rica eel. This savory and high-protein slippery animal, ready to pamper your tongue and relax your stomach. The technique of processing this food is quite easy, namely the eel is fried until cooked, then mixed with the rica-rica seasoning that has been prepared.
 
-Civil War and Franco Era (1930s - 1940s): During the Spanish Civil War and the subsequent dictatorship of Francisco Franco, the club faced numerous challenges. Its Catalan identity made it a symbol of resistance against Franco's regime.
-
-Golden Era (late 1940s - 1950s): The 1940s and 1950s were marked by tremendous success for Barcelona. Players like Ladislao Kubala and Luis Suárez led the team to win numerous domestic and international titles.
-
-Cruyff's Era (1970s - 1980s): Johan Cruyff's arrival as a player in the 1970s and later as a manager in the late 1980s had a profound impact on Barcelona. He implemented a playing style known as "Total Football" and won the club's first-ever European Cup (now UEFA Champions League) in 1992.
-
-The Dream Team (1990s): Under Cruyff, Barcelona's "Dream Team" achieved great success, winning four consecutive La Liga titles from 1991 to 1994.
-
-Modern Era (2000s - Present): In the 21st century, Barcelona reached the pinnacle of football success under managers like Pep Guardiola. The team won numerous domestic and international titles, including multiple UEFA Champions League titles and La Liga championships.
-
-Lionel Messi Era: The club's most iconic player, Lionel Messi, made his debut for Barcelona in 2004. Messi became the club's all-time leading scorer and led the team to numerous victories.
-
-Recent Challenges: In recent years, Barcelona has faced financial challenges, leading to the departure of Lionel Messi to Paris Saint-Germain in 2021. The club has been rebuilding its squad and finances.
-
-FC Barcelona's history is rich with success, iconic players, and a commitment to a distinctive style of football known as "tiki-taka." The club has a passionate global fan base and remains a symbol of Catalan culture and identity.
+Tuban is indeed famous for its religious tourism spread in various regions, such as the Great Mosque of Tuban, the Tomb of Sunan Bonang, to the tombs of other religious leaders. But Tuban also keeps the charm of natural beauty that is so exotic and stunning.
 ###
 ```
 * In the example field, enter as follows:
   
 | Question                   | Answer                                                                                                                                |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| What is FC Barcelona       | FC Barcelona, often referred to simply as Barcelona or Barça, is one of the most renowned and successful football clubs in the world. |
-| When FC Barcelona was born | FC Barcelona was founded on November 29, 1899, by a group of Swiss, English, and Catalan footballers led by Joan Gamper.              |
+| what's the meaning of tuban?       | The meaning of the word comes from Javanese which means "out of the water". Tuban is a combination of the word "meTU BANyune". Javanese people often make two or more sentences shorter. In the previous two words, the Javanese combined the two words into a word. The two words "meTU BANyune" are shortened to one word namely "Tuban". |
+| where is tuban? | Tuban Regency is one of the 38 regencies and cities in the administrative region of East Java Province. Tuban Regency area is on the northern coastal strip (Pantura) of Java Island.              |
+| Iconic Places in Tuban | Tuban is indeed famous for its religious tourism spread in various regions, such as the Great Mosque of Tuban, the Tomb of Sunan Bonang, to the tombs of other religious leaders. But Tuban also keeps the charm of natural beauty that is so exotic and stunning. |
 
-![image](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/3ffeee19-8787-4968-8e2c-486b7d4e34a2)
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/ba898c78-9a9b-4008-b006-7b39d4223f99)
+
 
 * Try prompt and make sure bot answer correctly
 * Select the part that I highlighted:
 
-![Screenshot (8)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/e20d3e67-c906-4a50-a32f-f9c1da92aabf)
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/e3570dba-61a4-42a9-a46a-e27bb222cab4)
 
 * Make sure the options like the following:
   * Decoding Type: Greedy
