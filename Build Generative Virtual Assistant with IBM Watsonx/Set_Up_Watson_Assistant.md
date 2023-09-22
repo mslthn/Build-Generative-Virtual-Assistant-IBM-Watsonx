@@ -4,13 +4,13 @@
 * After that, you can select country to Dallas-US, plan lite, and check "**i have read and aggree to the license aggreement**" and then click "**Create**"
 * and after your Watson Assistant Service created you can see in the search bar is would be like this :
   
-![Screenshot (10)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/ff24f974-38ee-4065-8361-82b5d7fd0630)
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/0738386c-50ca-4be1-91ed-7d7608766552)
 
 * Click on the "**Watson Assistant-(random character, for me is Watson Assistant-aa, it would be different per user)**"
 * Click "**Launch**"
 * After launch the Watson Assistant service, you will see the following:
 
-![Screenshot (13)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/19bd6ddb-3bac-404f-a08d-51eff16a76e5)
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/3176afbb-cabf-4c0a-8107-bb94c5178d4d)
 
 # Setup Extension WatsonX On Watson Assistant
 
