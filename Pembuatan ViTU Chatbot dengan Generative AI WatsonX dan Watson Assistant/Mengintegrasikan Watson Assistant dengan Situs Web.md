@@ -8,9 +8,10 @@ Di bagian ini dijelaskan bagaimana cara mengintegrasikan watson assistant ke web
 * Pada preview klik **Customize web chat**
 * Pada menu ini kalian dapat mengatur assistant yang kalian bangun, seperti merubah warna, logo, dan kata-kata yang ditampilkan pada assistant 
 * Selanjutnya pilih menu **Embed**
-* Salin "embedded code" yang ada pada kotak
+* Salin kode yang ada pada kotak.
 
-[input image]
+![image](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/assets/145754405/fcdda64d-fb81-446b-ba90-9f5505ffe6e6)
+
 
 ## Langkah-langkah pada website
 
