@@ -42,40 +42,40 @@ Sebelum kita mengatur virtual agent, kita harus menghubungkan WatsonX Generated 
 * Scroll kebawah ke bagian extension menu dan klik "**Add**"
 * Klik "**Next**"
 * Pilih "**Oauth 2.0**" pada Authentication Type
-* Paste API Key dari WatsonX, yang sudah kita that we copied before to "**Api Key Form**"
+* Paste API Key dari WatsonX, yang sudah kita copy sebelumnya ke "**Api Key Form**"
 * Klik "**Next**"
 * terakhir "**Finish**"
 
-# Setup Action On Watson Assistant
+# Setup Action pada Watson Assistant
 
-After we successfully integrated WatsonX and Watson Assistant, next step is testing
-* Open menu on left top corner and select "**Action**"
-* Click "**New Action**"
+Setelah berhasil mengintegrasilam WatsonX dan Watson Assistant, langkah selanjutnya adalah testing
+* Buka menu pada bagian pojok kiri atas, lalu pilih "**Action**"
+* KLik "**New Action**"
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/170d83e8-be31-4ccd-8ad5-491aafa1e0e3)
 
-* Define Customer say for start the coversation, e.g. "hai"
+* Tuliskan "Customer Say" untuk memanggil Bot, untuk kali ini saya menggunakan kata "hai" untuk memulai interaksi dengan bot
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/5151b31e-d551-490e-ac96-2cd00e9262a5)
 
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/2e44e6a8-a213-4827-99ab-92d113414506)
 
 
-* I start to asking user to ask everything they want to ask, and select customer response to "**Free Text**"
+* Lalu atur kalimat apa yang akan keluar pertama dari bot dan disampaikan ke user nantinya. Disini saya menanyakan hal apa yang ingin user ketahui mengenai Tuban, lalu pilih Customer response dengan "**Free Text**"
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/43b3509b-fde1-4033-aeee-46e203988cde)
 
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/6fde2373-18e5-4dd0-b696-9f216864228b)
 
 
-## Import WatsonX To Watson Assistant
+## Import WatsonX ke Watson Assistant
 
-* Select "**New Step**"
-* In menu "_And Then_" select "**Use an Extension**"
-* Choose an extension and select the extension we create before
-* Select "_Operation_" to "**Generation**"
-* For Parameters we can insert the following from WatsonX Prompt Lab via View Code, below is the instruction to read the code and fill parameters
+* Pilih "**New Step**"
+* Pada metu "_And Then_" pilih "**Use an Extension**"
+* Klik extension dan pilih extension yang tadi telah dibuat
+* Klik "**Generation**" pada "_Operation_" 
+* Untuk parameter kita dapat melihatnya dari WatsonS prompt lab pada bagian "view Code", lalu isikan sesuai dengan detil parameter yang ada disana seperti gambar dibawah ini.
   ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/e70ef1c9-8f1b-4b1c-ae05-47db0f92a9c9)
 
 
-* For input parameter select "**Action Variables**" and select "**step 1**"
+* Untuk input parameter select "**Action Variables**" lalu pilih "**step 1**"
 * After we set the extension, time to making variable that will call the extension
 * Click "**New Step**"
 * Change "**Is taken to** to "**With conditions**"
