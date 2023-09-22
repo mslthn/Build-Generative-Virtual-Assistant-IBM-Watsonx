@@ -40,7 +40,7 @@ Action pertama ini, merupakan action utama yang digunakan dalam pembuatan chatbo
 
 Cara menghubungkan WatsonX Extension ke Watson Assistant bisa dilihat di link berikut: 
 
-[klik disini!](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/edit/main/Pembuatan%20ViTU%20Chatbot%20dengan%20Generative%20AI%20WatsonX%20dan%20Watson%20Assistant/Integrasi%20WatsonX%20ke%20Watson%20Assistant.md#cara-mengintegrasikan-watsonx-generative-ai-ke-watson-assistant)
+[klik disini!](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/blob/main/Pembuatan%20ViTU%20Chatbot%20dengan%20Generative%20AI%20WatsonX%20dan%20Watson%20Assistant/Integrasi%20WatsonX%20ke%20Watson%20Assistant.md#cara-mengintegrasikan-watsonx-generative-ai-ke-watson-assistant)
 
 ### Step 5:
 * Pada bagian _Is taken_, pilih **with condition**. Ketika penggunaan extension pada step 4 berhasil "**Ran successfully**".
