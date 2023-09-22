@@ -1,18 +1,18 @@
-# Integrating Watson Assistant to Our Website
+# Mengintegrasikan Watson Assistant dengan Situs Web
 
-In this topic we'll tell you how to integrating the watson assistant into the website
+Di bagian ini dijelaskan bagaimana cara mengintegrasikan watson assistant ke website milik kita
 
-## Step in watson assistant
+## Langkah-langkah pada watson assistant
 
-* Open watson assistant, in menu on top left click **Preview**
-* In preview menu click **Customize web chat**
-* In this menu you can customizing your assistant, like set the color, logo, and more
-* In Customize menu scroll right and select **Embed**
-* Select and copy embedded code
+* Buka watson assistant, klik menu pada pojok kiri atas, lalu pilih **Preview**
+* Pada preview klik **Customize web chat**
+* Pada menu ini kalian dapat mengatur assistant yang kalian bangun, seperti merubah warna, logo, dan kata-kata yang ditampilkan pada assistant 
+* Selanjutnya pilih menu **Embed**
+* Salin "embedded code" yang ada pada kotak
 
 [input image]
 
-## Step on the website
+## Langkah-langkah pada website
 
 Basically Halo Barca's Website run with blogger, so to setup the website we follow the blogger rule
 * Open blogger site and open blog created
