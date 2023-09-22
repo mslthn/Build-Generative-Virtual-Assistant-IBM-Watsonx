@@ -42,7 +42,7 @@ Sebelum kita mengatur virtual agent, kita harus menghubungkan WatsonX Generated 
 * Scroll kebawah ke bagian extension menu dan klik "**Add**"
 * Klik "**Next**"
 * Pilih "**Oauth 2.0**" pada Authentication Type
-* Paste API Key dari WatsonX, that we copied before to "**Api Key Form**"
+* Paste API Key dari WatsonX, yang sudah kita that we copied before to "**Api Key Form**"
 * Klik "**Next**"
 * terakhir "**Finish**"
 
