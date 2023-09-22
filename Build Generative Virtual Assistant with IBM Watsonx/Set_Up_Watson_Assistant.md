@@ -20,24 +20,27 @@ Before we take action to setup our virtual agent, we must create integration bet
 * Before we move forward we need copy our WatsonX API KEY
 * Back to WatsonX and open our project assets and click the following :
 
-![Screenshot (14)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/5383a72a-3cbd-4597-a5eb-cd872ebdac19)
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/738124ef-2697-4dba-b5ed-15f3b6837f5f)
 
-* Click "**Create**"
-* Fill in the name and description as desired
+* Click "**Create a personal API key**"
+* Once you click "Create", you will be redirected to a new tab to create a Personal API Key
+* Name your API key and fill the description as desired
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/faf9da30-bc5c-4379-8130-43b320614cd2)
+
 * And then click "**Create**"
 * Copy API Key / Download, and back to Watson Assistant
 * Click "**Next**"
 * Fill in Extension Name and Extension Description then click next
-* Download this [JSON](https://github.com/watson-developer-cloud/assistant-toolkit/blob/master/integrations/extensions/starter-kits/language-model-watsonx/watsonx-openapi.json) file
+* Download JSON file from [this link](https://github.com/watson-developer-cloud/assistant-toolkit/blob/master/integrations/extensions/starter-kits/language-model-watsonx/watsonx-openapi.json).
 * And then drag or drop the file to the following :
 
-![Screenshot (15)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/5707ecff-8613-42b2-892d-ae7f69c3b792)
+![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/7e491303-ba30-4bdc-8f07-fb11eb29ee52)
 
 * Click "**Next**"
 * Click "**Finish**"
 * Scroll Down again to extension menu and click "**Add**" to integration we just created
 * Click "**Next**"
-* Authentication Type select "**Oauth 2.0**"
+* Select "**Oauth 2.0**" on Authentication Type
 * Paste API Key from WatsonX, that we copied before to "**Api Key Form**"
 * Click "**Next**"
 * And click "**Finish**"
@@ -47,13 +50,19 @@ Before we take action to setup our virtual agent, we must create integration bet
 After we successfully integrated WatsonX and Watson Assistant, next step is testing
 * Open menu on left top corner and select "**Action**"
 * Click "**New Action**"
-* Define Customer say for start the coversation, e.g. "hello"
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/170d83e8-be31-4ccd-8ad5-491aafa1e0e3)
 
-![Screenshot (17)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/e2861da5-ab64-49dd-bd65-8decf8ad456b)
+* Define Customer say for start the coversation, e.g. "hai"
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/5151b31e-d551-490e-ac96-2cd00e9262a5)
+
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/2e44e6a8-a213-4827-99ab-92d113414506)
+
 
 * I start to asking user to ask everything they want to ask, and select customer response to "**Free Text**"
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/43b3509b-fde1-4033-aeee-46e203988cde)
 
-![Screenshot (18)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/71e1f0fe-a98a-4746-a5a1-00e839120754)
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/6fde2373-18e5-4dd0-b696-9f216864228b)
+
 
 ## Import WatsonX To Watson Assistant
 
@@ -62,8 +71,8 @@ After we successfully integrated WatsonX and Watson Assistant, next step is test
 * Choose an extension and select the extension we create before
 * Select "_Operation_" to "**Generation**"
 * For Parameters we can insert the following from WatsonX Prompt Lab via View Code, below is the instruction to read the code and fill parameters
+  ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/e70ef1c9-8f1b-4b1c-ae05-47db0f92a9c9)
 
-![Screenshot (19)](https://github.com/yogasungkowo/Build_Generative_Virtual_Assistant_With_IBM_WatsonX_Watson_Assistant/assets/93362737/bde11225-3b2c-4909-bf36-90fe4f3b7080)
 
 * For input parameter select "**Action Variables**" and select "**step 1**"
 * After we set the extension, time to making variable that will call the extension
