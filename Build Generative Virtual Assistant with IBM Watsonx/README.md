@@ -10,9 +10,6 @@ So we have an idea to create a chatbot that helps users to get to know Tuban Reg
 I use the blog [[Kabupaten Tuban blog](https://capstoneprojectkami.blogspot.com/)] to introduce Tuban Regency to tourist attractions, culture in Tuban Regency, Tuban specialties, and others through the blog and added a chatbot from IBM Watson to make the blog look more interactive.
 
 ## List Of Content
-| Name | Content |
-| --- | --- |
-| Set Up WatsonX | [Set Up WatsonX](Set_Up_WatsonX.md)
-| Set Up Watson Assistant | [Set Up Watson Assistant](Set_Up_Watson_Assistant.md)
-| Integrate Watson Assistant To Blogger & Website | [Integrate Watson Assistant To Blogger & Website](Integrate_Watson_Assistant_To_Blogger_&_Website.md)
-| Test Assistant | [Test Assistant](Test_Assistant.md)
+1. Login IBM
+2. SetUp WatsonX (Generative AI)
+3. SetUp Watson Assistant (ChatBot)
