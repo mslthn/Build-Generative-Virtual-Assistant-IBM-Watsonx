@@ -10,7 +10,7 @@ Di bagian ini dijelaskan bagaimana cara mengintegrasikan watson assistant ke web
 * Selanjutnya pilih menu **Embed**
 * Salin kode yang ada pada kotak.
 
-![image](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/assets/145754405/fcdda64d-fb81-446b-ba90-9f5505ffe6e6)
+![image](https://github.com/mslthn/Pembuatan-ViTu-Chatbot-dengan-Generative-AI-WatsonX-dan-Watson-Assistant/assets/145754405/fcdda64d-fb81-446b-ba90-9f5505ffe6e6) 
 
 
 ## Langkah-langkah pada website
