@@ -1,4 +1,4 @@
-#Tahap Pembuatan 
+#Tahap Pembuatan Prompt untuk Chatbot
 
 Klik pada tombol "Get Started", namun karena saya sudah membuat servis dari IBM ini, jadi jika tampilan anda seperti ini langsung saja klik "Launch" dan tampilan web anda akan seperti gambar dibawah ini
 ![image](https://github.com/mslthn/Build-Generative-Virtual-Assistant-IBM-Watsonx/assets/75915809/bb33f944-59f0-4d8a-ae69-a15d34f42b53)
