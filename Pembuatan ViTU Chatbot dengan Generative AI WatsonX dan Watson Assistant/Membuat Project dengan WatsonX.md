@@ -84,6 +84,7 @@ Tourist destinations that you can visit while in Tuban:
   - Stopping Criteria : "." dan "enter"
   - Min Token : 50
   - Max Token : 200
+
 _Note: Dengan setting parameter diatas, memungkinkan AI akan memberikan jawaban sesuai kebutuhan yaitu seberapa panjang jawaban yang akan diberikan dari min dan max token._
 
 * Lakukan percobaan pada kolom Try dengan memasukkan pertanyaan dan output yang kita inginkan, seperti contoh berikut:
